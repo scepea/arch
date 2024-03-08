@@ -5,6 +5,7 @@ pacman -S --noconfirm packagekit-qt5 # Required for Discoverer integration for A
 systemctl enable sddm # Enable desktop manager
 
 # Utilities
+pacman -S --noconfirm usbutils # USB Utilities 
 pacman -S --noconfirm cups # Printing System
 
 # Development Tools
